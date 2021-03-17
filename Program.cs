@@ -5,7 +5,7 @@ using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 using Meta.Numerics.Extended;
 
-namespace ConsoleApp20
+namespace Example
 {
     public static class OptimisedImplementation
     {
