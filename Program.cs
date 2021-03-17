@@ -1270,9 +1270,9 @@ namespace Example
 
             Console.WriteLine("\nOptimised ErfInv vs mathnet ErfInv");
             Compare(&OptimisedImplementation.ErfInv, &MathNet.Numerics.SpecialFunctions.ErfInv, ScaleB(1, -16));
-            //
-            // Console.WriteLine("\nBenchmarks");
-            // var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
+            
+            Console.WriteLine("\nBenchmarks");
+            var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
         }
     }
 }
